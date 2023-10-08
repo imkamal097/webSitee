@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <h1 style="color:red;"><b>TIC-TAC-TOE</b></h1>   
+     <p style="color:DodgerBlue;">Game starts by clicking on the box</p>
+    <p style="color:DodgerBlue;">First player start as <b>Player X</b> and second player start as <b>Player O</b></p>
+    <div id="game-board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div id="result" class="hidden">
+        <p id="result-message">Result: <span id="winner"></span></p>
+        <button id="restart-button">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
